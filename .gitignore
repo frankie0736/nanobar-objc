@@ -1,0 +1,4 @@
+nanobar
+*.o
+*.dSYM/
+.DS_Store
