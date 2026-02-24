@@ -58,9 +58,6 @@ int main(int argc, char *argv[]) {
         fclose(f);
     }
 
-    if (fork() != 0) return 0;
-    setsid();
-
     @autoreleasepool {
         NSApplication *app = [NSApplication sharedApplication];
         app.activationPolicy = NSApplicationActivationPolicyAccessory;
